@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmerView"><attr format="color" name="reflectionColor"/></declare-styleable>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/ShimmerLib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Shimmer</string>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GyroDroid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UnityPlayerActivity/libs/GyroDroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

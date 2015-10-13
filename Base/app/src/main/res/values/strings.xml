@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">奇幻云</string>
+    <string name="confirm">确定</string>
+
+    <!--hexh's string-->
+    <string name="choice">精选</string>
+    <string name="theme">主题馆</string>
+    <string name="game">游戏</string>
+    <string name="video">影视</string>
+    <string name="mine">我的</string>
+    <string name="mobile">手机号</string>
+    <string name="login_password">登录密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码？请点击这里</string>
+    <string name="please_input_11_num">请输入11位手机号码</string>
+    <string name="mobile_verify_code">手机验证码</string>
+    <string name="verify_code">验证码</string>
+    <string name="send_verify_code">发送验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="agreed">已同意</string>
+    <string name="register_protocol">注册协议</string>
+    <string name="nickname">昵  称</string>
+    <string name="password">密  码</string>
+    <string name="nickname_hint">2-16个字符</string>
+    <string name="password_hint">6-18个字符</string>
+    <string name="complete_register">完成注册</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="video_recommend">影视推荐</string>
+    <string name="game_recommend">游戏推荐</string>
+    <string name="download">下载</string>
+    <string name="play">播放</string>
+    <string name="content_list">内容列表</string>
+    <string name="collect">收藏</string>
+    <string name="download_play_times">下载/播放次数：</string>
+    <string name="size">大小：</string>
+    <string name="detail">详细信息</string>
+    <string name="relate_recommend">相关推荐</string>
+    <string name="download_times">下载次数：</string>
+    <string name="please_input_old_password">请输入原密码</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="download_list">下载列表</string>
+    <string name="open">打开</string>
+    <string name="install">安装</string>
+    <string name="search">搜索</string>
+    <string name="logout">退出登录</string>
+
+
+
+
+    <!--wangxc's string-->
+</resources>

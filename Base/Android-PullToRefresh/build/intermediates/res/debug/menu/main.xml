@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLib/res/menu/main.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/Android-PullToRefresh/build/intermediates/exploded-aar/Base/BeiVandaLib/unspecified/res/menu/main.xml -->

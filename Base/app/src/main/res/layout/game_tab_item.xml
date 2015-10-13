@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="hello"
+        android:paddingTop="@dimen/padding_720x1080_10dp"
+        android:paddingLeft="@dimen/padding_720x1080_10dp"
+        android:paddingRight="@dimen/padding_720x1080_10dp"
+        android:drawablePadding="@dimen/padding_720x1080_10dp"
+        android:textSize="@dimen/standard_720x1280_28px"
+
+        android:textColor="@color/white"/>

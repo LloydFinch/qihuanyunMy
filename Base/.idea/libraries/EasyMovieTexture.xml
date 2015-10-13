@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EasyMovieTexture">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UnityPlayerActivity/libs/EasyMovieTexture.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

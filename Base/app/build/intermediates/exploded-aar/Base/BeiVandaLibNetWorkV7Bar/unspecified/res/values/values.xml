@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="bg_listitem_shot"/>
+    <attr format="reference" name="ic_comment"/>
+    <attr format="reference" name="ic_like"/>
+    <attr format="reference" name="ic_view"/>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="color_backgroud_">#00000000</color>
+    <color name="common_button_pressed_">#1fD7D7D7</color>
+    <color name="drop_down_list_footer_font_color">#000000</color>
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <declare-styleable name="ProgressWheel"><attr format="string" name="progress_bar"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="color" name="barColor"/><attr format="color" name="rimColor"/><attr format="dimension" name="rimWidth"/><attr format="dimension" name="spinSpeed"/><attr format="integer" name="delayMillis"/><attr format="color" name="circleColor"/><attr format="dimension" name="barWidth"/><attr format="dimension" name="barLength"/></declare-styleable>
+    <declare-styleable name="SlidingTabLayout"><attr format="color" name="selectedSlidingTabColor"/><attr format="reference|dimension" name="indicatorHeight"/><attr format="color" name="dividerColor"/><attr name="android:textAppearance"/></declare-styleable>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="action_bar_title_text_size">18sp</dimen>
+    <dimen name="drop_down_list_footer_button_height">48dp</dimen>
+    <dimen name="drop_down_list_footer_button_margin_left">8dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">15dp</dimen>
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">20dp</dimen>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="camera_no">没有摄像设备</string>
+    <string name="camera_no_file">文件不存在</string>
+    <string name="camera_no_link">创建内部链接失败！</string>
+    <string name="drop_down_list_footer_default_text">More</string>
+    <string name="drop_down_list_footer_loading_text">Loading…</string>
+    <string name="drop_down_list_footer_no_more_text">No More</string>
+    <string name="drop_down_list_header_default_text">Click to refresh…</string>
+    <string name="drop_down_list_header_loading_text">Loading…</string>
+    <string name="drop_down_list_header_pull_text">Drop Down to refresh…</string>
+    <string name="drop_down_list_header_release_text">Release to refresh…</string>
+    <string name="image_content">Image</string>
+    <string name="update_at">最后更新:</string>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="drop_down_list_footer_font_style">
+        <item name="android:textColor">@color/drop_down_list_footer_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="drop_down_list_footer_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+    </style>
+    <style name="drop_down_list_header_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="drop_down_list_header_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+    </style>
+    <style name="drop_down_list_header_second_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_second_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+</resources>

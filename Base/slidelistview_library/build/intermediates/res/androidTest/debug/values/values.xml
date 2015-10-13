@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideListView"><attr format="integer" name="slideAnimationTime"/><attr format="enum" name="slideMode"><enum name="none" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/><enum name="both" value="3"/></attr><attr format="enum" name="slideLeftAction"><enum name="scroll" value="0"/><enum name="reveal" value="1"/></attr><attr format="enum" name="slideRightAction"><enum name="scroll" value="0"/><enum name="reveal" value="1"/></attr></declare-styleable>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/slidelistview_library/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <item name="slide_id_front_view" type="id"/>
+    <item name="slide_id_left_back_view" type="id"/>
+    <item name="slide_id_right_back_view" type="id"/>
+</resources>

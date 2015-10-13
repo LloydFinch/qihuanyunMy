@@ -1,0 +1,3 @@
+include ':app', ':ChoosePictures', ':BeiVandaLib', ':ListViewAnimationLib', ':ShimmerLib', ':Volley',
+        ':ActionBar-PullToRefresh', ':AndroidStaggeredGridLib', ':Android-PullToRefresh',
+        ':BeiVandaLibNetWorkV7Bar', ':PhotoViewLib', ':slidelistview_library', ':library_indicator', ':UnityPlayerActivity'

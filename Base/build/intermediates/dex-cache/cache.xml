@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLibNetWorkV7Bar\unspecified\jars\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1-9766050d33319053dbd33dc50416d0ea299ae963.jar" />
+    </item>
+    <item
+        jar="F:\android-sdk2\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-6112ac98e1efea2d8dfb9c7bfadb0cba74b5383a.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\Android-PullToRefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d7f61ab83bef2df483aef06da87a6d3059a54ae3">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-6bb508a96a09ecf3ceb1ae7b1ef9fa494ddc5293.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\PhotoViewLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8c2d186a2e9cdcf6b60fd20cc4edd6d4cce2fad3">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-0fe84ab579d354dfd87ee5f826e3528c57558559.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\ListViewAnimationLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6a331765961210ce3b63e3497225c06710e9b98d">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-014fc6125cbe1762b24dcf795caebbcc2c8c5ee1.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\ShimmerLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="28fb063098001bde02d9564fc896e37324c22614">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-706be9677df40a56bb8736150d7c71b32d34f8eb.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\ActionBar-PullToRefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2ab62a894211e27c3df7fc80084510041082553">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-ccd9d6ac0c29e12be33b7c8c5c078b58e5dc4a74.jar" />
+    </item>
+    <item
+        jar="E:\soft\softApp\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48-850bff936a567ef2d774dcb0f036de8e05ab5bc5.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\Volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba984bb1aaa035b3c28fd24c55d1f0d935305153">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-b07d6529fde04ad8924a28edff6b0854e8d394bc.jar" />
+    </item>
+    <item
+        jar="E:\soft\softApp\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\ormlite-core-4.48-085bd5672c8a1600ab421bed9ef574f951b81117.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\AndroidStaggeredGridLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b903d4cbb92ff1ad952240446cca72de00694855">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-962b43a593052177f3ab75502f85f62a5ab9c5d8.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\UnityPlayerActivity\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="971fa8d9d255a01134b98f0f76eac227a7279ed9">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-d338ea561ea7cd92a730900dda8c43ddf1f4d88b.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\UnityPlayerActivity\unspecified\jars\libs\unity-classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ecebd98da2f1e39f3f79a78d84d72acf036adc4">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\unity-classes-c12b08c0058265f80439fc70bc0ccbf615e2d418.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\ChoosePictures\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d95a5a5b34b89c695e4405cf206169f7e5674059">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-41344915697f73f01c1b10e0b665b388bd86bd5a.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-1d862bfe6f71b4a1aecfe58fad12fe73c83da722.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7e229e6bc4e36d825fc4b96a75f6551e34f32e3f">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-53269dd3ea10974b314db73cb797768c22cd1a8a.jar" />
+    </item>
+    <item
+        jar="E:\soft\softApp\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3-24a1d5ed6fd0b1af759d243bb7b778db829f31c6.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLibNetWorkV7Bar\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe769a1b695d62f960bedc467828ac513d0eb945">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-f7adc8fdadcbbc0b7bbb6e971c2666118f901a3a.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-30054ce1b15b93180e40226ce6b948d76e0294e7.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\UnityPlayerActivity\unspecified\jars\libs\GyroDroid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3991c994ca190f1e53d078e1804ada4bc1b6e16">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\GyroDroid-c85eff698a320c10c4ca6bdfb5150da02a3cb9fa.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLibNetWorkV7Bar\unspecified\jars\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\gson-2.2.4-a44799dbae73627ca354f032939ef4963bc36538.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLibNetWorkV7Bar\unspecified\jars\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2-37d4589f1a7a349ee561e8e4842b1a705e8986a0.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\BeiVandaLibNetWorkV7Bar\unspecified\jars\libs\guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\guava-18.0-035426927f5fd31368104b42bd5493fda911bbf7.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\library_indicator\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="300a5d9c85e67eee7ba4ecc3939f178d096da158">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-bf20c9cde51f84eff74476e281c53536bec69fd7.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\UnityPlayerActivity\unspecified\jars\libs\EasyMovieTexture.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1dcd35129cd612211f8fe5a9003925bb230e0586">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\EasyMovieTexture-6320b5bbe3421fd3aa64a911b29f9a8e08f037c3.jar" />
+    </item>
+    <item
+        jar="E:\soft\softApp\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\library-2.4.0-52153d685b521b196573ed788ce8d5a175b61744.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\UnityPlayerActivity\unspecified\jars\libs\zip_file.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c614fd77dd17ce90fab8e112128b21bf08092cb6">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\zip_file-58a2e661f35fcdc679f6e6f86d1be523bf391d1c.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\Base\slidelistview_library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b33670b32a8206bb2737f62981d98e6b964157a8">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-38238a062486745ce81bcfc24f1c1949523c500d.jar" />
+    </item>
+    <item
+        jar="E:\soft\softApp\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\5.6.1\b2705cbb19f52bb4d242458163a98d9e889c1292\analytics-5.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\analytics-5.6.1-bcf8114897544d4211654dc316234634f49bb7b9.jar" />
+    </item>
+    <item
+        jar="F:\androidstudio_workingSpace\Base\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\androidstudio_workingSpace\Base\app\build\intermediates\pre-dexed\debug\classes-dcfe5dd4df719b16675bbebb8ec80e095d318c9d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\androidstudio_workingSpace\Base\app\src\androidTest\res"/><source path="F:\androidstudio_workingSpace\Base\app\build\generated\res\rs\androidTest\baidu91\debug"/><source path="F:\androidstudio_workingSpace\Base\app\build\generated\res\generated\androidTest\baidu91\debug"/></dataSet><dataSet config="androidTestBaidu91"><source path="F:\androidstudio_workingSpace\Base\app\src\androidTestBaidu91\res"/></dataSet><mergedItems/></merger>

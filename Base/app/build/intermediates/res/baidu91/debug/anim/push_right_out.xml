@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<set xmlns:android="http://schemas.android.com/apk/res/android">   
+    <translate   
+    android:fromXDelta="0"    
+    android:toXDelta="100%p"    
+    android:duration="500"/>   
+    
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="500"
+        />
+</set><!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLib/res/anim/push_right_out.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/app/build/intermediates/exploded-aar/Base/BeiVandaLib/unspecified/res/anim/push_right_out.xml -->

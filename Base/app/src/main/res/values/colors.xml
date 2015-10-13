@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#363640</color>
+    <color name="primaryDark">#363640</color>
+    <color name="accent">#22292c</color>
+    <color name="accentLight">#f6f7fb</color>
+    <color name="action_bar_title_color">#2c69fe</color>
+    <color name="common_text_color">#0278f0</color>
+    <color name="common_bg_color">#212026</color>
+
+
+    <!--hexh's color-->
+    <color name="radio_text_selected">#0278f0</color>
+    <color name="radio_text_normal">@android:color/white</color>
+    <color name="hint_color">#737373</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--wangxc's color-->
+
+
+
+
+
+
+</resources>

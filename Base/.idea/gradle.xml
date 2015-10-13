@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:\soft\softApp\android-studio\gradle\gradle-2.2.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActionBar-PullToRefresh" />
+            <option value="$PROJECT_DIR$/Android-PullToRefresh" />
+            <option value="$PROJECT_DIR$/AndroidStaggeredGridLib" />
+            <option value="$PROJECT_DIR$/BeiVandaLib" />
+            <option value="$PROJECT_DIR$/BeiVandaLibNetWorkV7Bar" />
+            <option value="$PROJECT_DIR$/ChoosePictures" />
+            <option value="$PROJECT_DIR$/ListViewAnimationLib" />
+            <option value="$PROJECT_DIR$/PhotoViewLib" />
+            <option value="$PROJECT_DIR$/ShimmerLib" />
+            <option value="$PROJECT_DIR$/UnityPlayerActivity" />
+            <option value="$PROJECT_DIR$/Volley" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/library_indicator" />
+            <option value="$PROJECT_DIR$/slidelistview_library" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

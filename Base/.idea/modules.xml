@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActionBar-PullToRefresh/ActionBar-PullToRefresh.iml" filepath="$PROJECT_DIR$/ActionBar-PullToRefresh/ActionBar-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh/Android-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStaggeredGridLib/AndroidStaggeredGridLib.iml" filepath="$PROJECT_DIR$/AndroidStaggeredGridLib/AndroidStaggeredGridLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base.iml" filepath="$PROJECT_DIR$/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiVandaLib/BeiVandaLib.iml" filepath="$PROJECT_DIR$/BeiVandaLib/BeiVandaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeiVandaLibNetWorkV7Bar/BeiVandaLibNetWorkV7Bar.iml" filepath="$PROJECT_DIR$/BeiVandaLibNetWorkV7Bar/BeiVandaLibNetWorkV7Bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChoosePictures/ChoosePictures.iml" filepath="$PROJECT_DIR$/ChoosePictures/ChoosePictures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimationLib/ListViewAnimationLib.iml" filepath="$PROJECT_DIR$/ListViewAnimationLib/ListViewAnimationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoViewLib/PhotoViewLib.iml" filepath="$PROJECT_DIR$/PhotoViewLib/PhotoViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShimmerLib/ShimmerLib.iml" filepath="$PROJECT_DIR$/ShimmerLib/ShimmerLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnityPlayerActivity/UnityPlayerActivity.iml" filepath="$PROJECT_DIR$/UnityPlayerActivity/UnityPlayerActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volley/Volley.iml" filepath="$PROJECT_DIR$/Volley/Volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_indicator/library_indicator.iml" filepath="$PROJECT_DIR$/library_indicator/library_indicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidelistview_library/slidelistview_library.iml" filepath="$PROJECT_DIR$/slidelistview_library/slidelistview_library.iml" />
+    </modules>
+  </component>
+</project>

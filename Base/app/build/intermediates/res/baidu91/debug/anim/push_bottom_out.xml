@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 上下滑入式 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <translate
+        android:duration="200"
+        android:fromYDelta="0"
+        android:toYDelta="50%p" />
+
+</set><!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLib/res/anim/push_bottom_out.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/app/build/intermediates/exploded-aar/Base/BeiVandaLib/unspecified/res/anim/push_bottom_out.xml -->

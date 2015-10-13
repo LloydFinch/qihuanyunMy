@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLibNetWorkV7Bar/build/intermediates/bundles/debug/res/values-xxhdpi/values-xxhdpi.xml -->
+    <eat-comment/>
+    <dimen name="action_bar_title_text_size">18sp</dimen>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="F:\androidstudio_workingSpace\Base\Android-PullToRefresh\build\intermediates\exploded-aar\Base\BeiVandaLib\unspecified\assets"/></dataSet><dataSet config="debug"><source path="F:\androidstudio_workingSpace\Base\Android-PullToRefresh\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="F:\androidstudio_workingSpace\Base\Android-PullToRefresh\src\androidTest\assets"/></dataSet></merger>

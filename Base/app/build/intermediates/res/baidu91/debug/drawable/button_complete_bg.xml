@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/complete_press_color" android:state_pressed="true"/>
+    <item android:drawable="@color/complete_normal_color"/>
+
+</selector><!-- From: file:/F:/androidstudio_workingSpace/Base/ChoosePictures/res/drawable/button_complete_bg.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/app/build/intermediates/exploded-aar/Base/ChoosePictures/unspecified/res/drawable/button_complete_bg.xml -->

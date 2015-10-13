@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:color="@drawable/dialog_btn_text_color_normal"/>  
+    <!-- not selected -->  
+    <item android:color="@drawable/common_text_pressed_color"/>  
+
+</selector>
+<!-- From: file:/F:/androidstudio_workingSpace/Base/BeiVandaLib/res/drawable/radiobutton_text_color.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/Android-PullToRefresh/build/intermediates/exploded-aar/Base/BeiVandaLib/unspecified/res/drawable/radiobutton_text_color.xml -->

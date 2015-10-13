@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zip_file">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UnityPlayerActivity/libs/zip_file.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

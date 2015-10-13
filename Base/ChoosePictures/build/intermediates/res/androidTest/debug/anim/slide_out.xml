@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        android:duration="200"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="0"
+        android:toYDelta="100%" >
+    </translate>
+
+</set><!-- From: file:/F:/androidstudio_workingSpace/Base/ChoosePictures/res/anim/slide_out.xml --><!-- From: file:/F:/androidstudio_workingSpace/Base/ChoosePictures/build/intermediates/bundles/debug/res/anim/slide_out.xml -->

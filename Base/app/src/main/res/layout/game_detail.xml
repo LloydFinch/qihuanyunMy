@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:paddingTop="@dimen/standard_32px"
+            android:paddingBottom="@dimen/standard_22px">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/standard_208px"
+                android:layout_height="@dimen/standard_190px"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_24px"
+                android:layout_toRightOf="@+id/image"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/standard_720x1280_30px" />
+
+            <RelativeLayout
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="@dimen/standard_24px"
+                android:layout_marginTop="@dimen/standard_20px"
+                android:layout_toRightOf="@+id/image">
+
+                <TextView
+                    android:id="@+id/download_play_times_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hint_color"
+                    android:text="@string/download_times"
+                    android:textSize="@dimen/standard_720x1280_24px" />
+                <TextView
+                    android:id="@+id/download_play_times_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hint_color"
+                    android:layout_toRightOf="@+id/download_play_times_key"
+                    android:textSize="@dimen/standard_720x1280_24px" />
+                <TextView
+                    android:id="@+id/size_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hint_color"
+                    android:layout_below="@+id/download_play_times_key"
+                    android:text="@string/size"
+                    android:textSize="@dimen/standard_720x1280_24px" />
+                <TextView
+                    android:id="@+id/size_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hint_color"
+                    android:layout_below="@+id/download_play_times_key"
+                    android:layout_toRightOf="@+id/size_key"
+                    android:textSize="@dimen/standard_720x1280_24px" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_24px"
+                android:layout_marginTop="@dimen/standard_20px"
+                android:layout_toRightOf="@+id/image"
+                android:layout_alignBottom="@+id/image"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/collect_button_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@mipmap/button_collection"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/collect_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/icon_heart" />
+
+                    <TextView
+                        android:id="@+id/collect_textfont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_720x1080_3dp"
+                        android:gravity="center"
+                        android:text="@string/collect"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/standard_720x1280_24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/download_item_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_720x1080_10dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/button_download"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/download_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/icon_download" />
+
+                    <TextView
+                        android:id="@+id/dowload_textfont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_720x1080_3dp"
+                        android:gravity="center"
+                        android:text="@string/download"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/standard_720x1280_24px" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginLeft="@dimen/margin_720x1080_10dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/button_open"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/standard_720x1280_24px"
+                    android:gravity="center"
+                    android:text="@string/open"/>
+                <TextView
+                    android:id="@+id/install"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:background="@mipmap/button_play"
+                    android:textColor="@drawable/white_to_bg_color_selector"
+                    android:textSize="@dimen/standard_720x1280_24px"
+                    android:gravity="center"
+                    android:text="@string/install"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/simple_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:textScaleX="1.1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/standard_720x1280_26px"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/ll_image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <include layout="@layout/common_line"/>
+
+        <TextView
+            android:id="@+id/tv_detail_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail"
+            android:visibility="gone"
+            android:textSize="@dimen/standard_720x1280_28px"
+            android:paddingTop="@dimen/standard_24px"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:paddingBottom="@dimen/standard_24px"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/detail_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standard_720x1280_26px"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:paddingBottom="@dimen/standard_24px"
+            android:textScaleX="1.1"
+            android:textColor="@android:color/white"/>
+
+        <include layout="@layout/common_line"/>
+
+        <TextView
+            android:id="@+id/tv_recommend_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relate_recommend"
+            android:visibility="gone"
+            android:textSize="@dimen/standard_720x1280_28px"
+            android:paddingTop="@dimen/standard_24px"
+            android:paddingLeft="@dimen/standard_24px"
+            android:paddingRight="@dimen/standard_24px"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:id="@+id/recommend_addContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

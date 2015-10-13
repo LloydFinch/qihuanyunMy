@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/local_video_scan_menu"
+        android:title="扫描视频"
+        android:orderInCategory="100" appcompat:showAsAction="always"
+        appcompat:actionLayout="@layout/right_title"/>
+</menu>

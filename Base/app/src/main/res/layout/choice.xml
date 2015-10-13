@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_bg_color"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/viewpager_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_backgroud"
+                android:visibility="visible">
+
+                <com.vanda.vandalibnetwork.view.utils.AutoScrollViewPager
+                    android:id="@+id/home_fragment_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null" />
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/home_fragment_circlepageindicator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/padding_720x1080_2dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_video_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/standard_720x1280_choice_title_margin_top"
+                android:paddingLeft="@dimen/standard_720x1280_choice_title_margin_left"
+                android:text="@string/video_recommend"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/standard_720x1280_32px" />
+
+            <LinearLayout
+                android:id="@+id/ll_videos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_game_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/standard_720x1280_choice_title_margin_top"
+                android:paddingLeft="@dimen/standard_720x1280_choice_title_margin_left"
+                android:text="@string/game_recommend"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/standard_720x1280_32px" />
+
+            <LinearLayout
+                android:id="@+id/ll_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

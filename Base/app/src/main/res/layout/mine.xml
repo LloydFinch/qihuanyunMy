@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@color/common_bg_color">
+
+            <com.vanda.vandalibnetwork.view.CircularImage
+                android:id="@+id/head_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_720x1080_40dp"
+                android:background="@mipmap/head_portrait" />
+
+            <LinearLayout
+                android:id="@+id/layout_have_logined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_image"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_user_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_720x1080_10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/standard_720x1280_50px" />
+
+                <LinearLayout
+                    android:id="@+id/button_changePW"
+                    android:layout_width="100dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_720x1080_10dp"
+                    android:background="@mipmap/button_edit"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@mipmap/icon_edit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin_720x1080_4dp"
+                        android:text="修改密码"
+                        android:textSize="@dimen/standard_720x1280_26px"
+                        android:textColor="@drawable/white_to_bg_color_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_not_login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_image"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/margin_720x1080_20dp"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@mipmap/button_log_in"
+                    android:text="登录"
+                    android:textSize="@dimen/standard_720x1280_26px"
+                    android:textColor="@drawable/white_to_bg_color_selector" />
+
+                <Button
+                    android:id="@+id/button_sign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/button_sign_up"
+                    android:text="注册"
+                    android:textSize="@dimen/standard_720x1280_26px"
+                    android:textColor="@drawable/white_to_bg_color_selector" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_local_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mine_list_item_bg_selector"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/list_click_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/list_clickpng"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_30dp"
+                    android:background="@mipmap/icon_download_mine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_10dp"
+                    android:text="本地下载"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/standard_720x1280_32px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_local_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_720x1080_3dp"
+                android:background="@drawable/mine_list_item_bg_selector"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/list_click_image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/list_clickpng"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_30dp"
+                    android:background="@mipmap/icon_vedio" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="本地视频"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/standard_720x1280_32px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_mycollection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_720x1080_3dp"
+                android:background="@drawable/mine_list_item_bg_selector"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/list_click_image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/list_clickpng"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_30dp"
+                    android:background="@mipmap/icon_mycollection" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_10dp"
+                    android:text="我的收藏"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/standard_720x1280_32px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_720x1080_3dp"
+                android:background="@drawable/mine_list_item_bg_selector"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/list_click_image4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/list_clickpng"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_30dp"
+                    android:background="@mipmap/button_setting" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_720x1080_10dp"
+                    android:text="设置"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/standard_720x1280_32px" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

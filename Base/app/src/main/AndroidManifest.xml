@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.qihuanyun"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <supports-screens
+            android:largeScreens="true"
+            android:normalScreens="true"
+            android:smallScreens="true"
+            android:anyDensity="true"/>
+
+    <uses-sdk
+            android:minSdkVersion="14"
+            android:targetSdkVersion="23"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+            android:name=".BaseApplication"
+            android:allowBackup="true"
+            android:hardwareAccelerated="true"
+            android:icon="@mipmap/desk_icon"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:theme="@style/MyTheme"
+            tools:replace="android:icon, android:theme">
+        <activity
+                android:name=".activity.SplashActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <data android:mimeType="video/*"></data>
+            </intent-filter>
+        </activity>
+        <activity
+                android:theme="@style/AppTheme"
+                android:name=".activity.MainActivity"
+                android:screenOrientation="portrait"
+                android:launchMode="singleTask"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.GuideActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.LoginActivity"
+                android:label="登录"
+                android:screenOrientation="portrait"
+                android:launchMode="singleTask"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+
+        <!-- hexh   -->
+        <activity
+                android:name=".activity.RegisterActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.ProtocolActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.CompleteRegisterActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.ForgetPasswordActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.GameDetailActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.ThemeDetailActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.VideoDetailActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.ModifyPasswordActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.DownloadActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.SettingActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".activity.HtmlActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <service android:name=".service.DownloadService"/>
+        <receiver android:name=".receiver.AppStatusReceiver">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+
+        <!-- wangxc   -->
+        <activity android:name=".activity.LoaclVideoActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:name=".activity.MyCollectionActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:name=".activity.SearchActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+                android:name="com.qihuanyun.mobilevr.video.UnityPlayerActivity"
+                android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+                android:label="@string/app_name"
+                android:launchMode="singleInstance"
+                android:screenOrientation="landscape">
+            <meta-data
+                    android:name="unityplayer.UnityActivity"
+                    android:value="true"/>
+        </activity>
+        <activity
+                android:name=".activity.SubUnityPlayerActivity"
+                android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+                android:label="@string/app_name"
+                android:launchMode="singleInstance"
+                android:screenOrientation="landscape">
+            <meta-data
+                    android:name="unityplayer.UnityActivity"
+                    android:value="true"/>
+        </activity>
+
+
+        <!--测试appkey-->
+        <meta-data android:value="56035623e0f55a2729005c51" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:name="UMENG_CHANNEL" android:value="${UMENG_CHANNEL_VALUE}"></meta-data>
+        <!--<meta-data android:name="UMENG_CHANNEL" android:value="wandoujia"></meta-data>-->
+    </application>
+    <uses-feature android:glEsVersion="0x00020000"/>
+
+</manifest>

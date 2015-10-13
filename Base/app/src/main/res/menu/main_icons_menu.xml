@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:holo="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_collect"
+        holo:showAsAction="always"
+        android:icon="@mipmap/actionbar_search_icon"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@+id/menu_download"
+        holo:showAsAction="always"
+        android:icon="@mipmap/actionbar_download_icon"
+        android:title="@string/download"/>
+
+</menu>
